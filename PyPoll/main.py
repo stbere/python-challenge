@@ -2,8 +2,8 @@ import os
 import csv
 
 # File path location
-data = 'Resources/election_data.csv'
-my_report = open('Analysis/Election_Analysis.txt', 'w')
+data = 'PyPoll/Resources/election_data.csv'
+my_report = open('PyPoll/Analysis/Election_Analysis.txt', 'w')
 
 total_votes = 0
 candidates=[]
